@@ -1,0 +1,6 @@
+
+base=read.csv("lungcancer.csv")
+summary(base)
+str(base)
+base$GENDER=as.factor(base$GENDER)
+base$LUNG_CANCER=as.factor(base$LUNG_CANCER)
